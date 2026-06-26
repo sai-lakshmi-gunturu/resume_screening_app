@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+.venv/
+env/
+venv/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Environment Variables ----
+.env
+*.env
+
+# ---- Model Files (optional) ----
+# Uncomment if you don't want to upload large ML models
+# *.pkl
+# *.joblib
+
+# ---- Cache ----
+.cache/
+*.cache
+
+# ---- Flask ----
+instance/
+*.db
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
